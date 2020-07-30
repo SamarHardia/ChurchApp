@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/churchmain1"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#3fff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:textColor="#ffffff"/>
+        <EditText
+
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:elevation="5dp"
+            android:textColorHint="#000"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"/>
+        <EditText
+
+            android:layout_width="250dp"
+            android:inputType="textPassword"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:textColorHint="#000"
+            android:paddingLeft="15dp"
+            android:elevation="5dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep me signed in"
+            android:textColor="#FFFBF8"
+            android:hint="#FFFBF8"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:buttonTint="#FFFBF8"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp?"
+            android:layout_marginTop="25dp"
+            android:textColor="#F7F7F7"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#3fff"
+            android:layout_marginTop="25dp"/>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Get Started"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btncolor"
+            android:elevation="5dp"
+            android:textColor="#FFFBF8"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
